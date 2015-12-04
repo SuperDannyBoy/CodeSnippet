@@ -8,7 +8,9 @@ Swift/OC code snippets for Xcode
 
 # Acknowledgements
  * [XcodeSwiftSnippets]
+ * [Xcode-Snippets]
 
-Thanks for your great work.
+Thanks for their great work.
 
 [XcodeSwiftSnippets]:https://github.com/burczyk/XcodeSwiftSnippets
+[Xcode-Snippets]:https://github.com/Xcode-Snippets

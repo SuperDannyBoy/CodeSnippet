@@ -3,19 +3,27 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>OC-mark</string>
+	<string>OC-SharedSingletion</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - </string>
+	<string>+ (instancetype)shared&lt;#name#&gt; {
+    static &lt;#class#&gt; *shared&lt;#name#&gt; = nil;
+    static dispatch_once_t onceToken;
+    dispatch_once(&amp;onceToken, ^{
+        shared&lt;#name#&gt; = &lt;#initializer#&gt;;
+    });
+
+    return _shared&lt;#name#&gt;;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>686DC148-9BAB-49A9-9DF2-252FDCC6B4A3</string>
+	<string>D08AA264-5DD1-49A1-8970-7399E19AAB2E</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>OC mark</string>
+	<string>OC Shared Singletion</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

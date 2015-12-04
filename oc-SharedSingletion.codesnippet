@@ -16,7 +16,7 @@
         shared&lt;#name#&gt; = &lt;#initializer#&gt;;
     });
 
-    return _shared&lt;#name#&gt;;
+    return shared&lt;#name#&gt;;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>D08AA264-5DD1-49A1-8970-7399E19AAB2E</string>

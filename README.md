@@ -13,13 +13,13 @@ Swift/OC code snippets for Xcode
 Thanks for their great work.
 
 
-##Usage
+## Usage
 
-###Swift Snippet
+### Swift Snippet
 
 ![Xcode use Swift code snippets](https://github.com/boy736809040/CodeSnippet/blob/master/gif/Swift.gif)
 
-###Object-C Snippet
+### Object-C Snippet
 
 ![Xcode use Object-C code snippets](https://github.com/boy736809040/CodeSnippet/blob/master/gif/OC.gif)
 
